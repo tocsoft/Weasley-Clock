@@ -48,11 +48,9 @@ innerCollaHeight = collaHeight * 3;
     }
     
 }
+module gearStack(stack = 1){
 $fs = 0.01;
-
-stack = 0;
-
-if(stack == 1){
+    if(stack == 1){
     shaftedGear(1);
     translate([0,0,3.5]){shaftedGear(2 ); }
     translate([0,0,7]){shaftedGear(3); }
@@ -63,5 +61,11 @@ if(stack == 1){
     translate([55,0,0]){shaftedGear(3); }
     translate([0,55,00]){shaftedGear(4); }
 }
+    }
+
+
+gearStack(1);
+
+
 
 
