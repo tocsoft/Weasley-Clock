@@ -8,7 +8,7 @@ gear = 1
     collaHeightOffset = 0;
     collaDiamater = 10;
     gearHeight = 3;
-    keyWidth = 1.2;
+    keyWidth = 1.6;
     keyHeight = 2;
     collaWidth = 1.2;
     gearDiamater = 35;
@@ -17,8 +17,8 @@ gear = 1
     
     bushingDi = 12;
     
-    collaDiamater = 2.6 + ((gear -1)  * 2);
-    colla2Diamater = 2.6 + ((gear )  * 2);
+    collaDiamater = 2.4 + ((gear -1)  * 2);
+    colla2Diamater = 2.4 + ((gear )  * 2);
     
     collaHeight = 2.5 ;
     bushingHeight = 2;
